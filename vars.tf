@@ -2,6 +2,7 @@ variable "parameters" {
   default = [
     { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
     { name = "dev.rds.username", type = "String", value = "admin1" },
+    { name = "dev.backend.DB_HOST", type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
 
 
 
