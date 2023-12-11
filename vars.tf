@@ -2,7 +2,7 @@ variable "parameters" {
   default = [
     { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
     { name = "dev.backend.DB_HOST", type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
-    { name = "dev.frontend.BACKEND_ENDPOINT", type = "String", value = "internal-dev-backend-1227435225.us-east-1.elb.amazonaws.com" },
+    { name = "dev.frontend.BACKEND_ENDPOINT", type = "String", value = "http://internal-dev-backend-1227435225.us-east-1.elb.amazonaws.com/" },
 
     ## RDS
     { name = "dev.rds.endpoint", type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
