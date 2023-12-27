@@ -15,6 +15,7 @@ variable "parameters" {
     # Passwords should never be kept under code, It always been created mostly manually / saperate automation where code is not involved.
     { name = "dev.rds.password", type = "SecureString", value = "ExpenseApp1234" },
     { name = "sonar.token", type = "SecureString", value = "2060dec344342f998bcb53fd3ea189592c7776ff" },
+    { name = "artifactory.password", type = "SecureString", value = "Admin123" },
   ]
 }
 
