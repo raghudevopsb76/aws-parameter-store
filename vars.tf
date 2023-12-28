@@ -4,6 +4,7 @@ variable "parameters" {
     { name = "dev.backend.DB_HOST", type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
     { name = "dev.frontend.BACKEND_ENDPOINT", type = "String", value = "http://backend-dev.rdevopsb72.online/" },
     { name = "ssh.username", type = "String", value = "root" },
+    { name = "artifactory.username", type = "String", value = "admin" },
 
 
     ## RDS
