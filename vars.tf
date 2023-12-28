@@ -5,6 +5,7 @@ variable "parameters" {
     { name = "dev.frontend.BACKEND_ENDPOINT", type = "String", value = "http://backend-dev.rdevopsb72.online/" },
     { name = "ssh.username", type = "String", value = "root" },
     { name = "artifactory.username", type = "String", value = "admin" },
+    { name = "dev.backend.app_version", type = "String", value = "1.0.0" },
 
 
     ## RDS
