@@ -1,8 +1,8 @@
 variable "parameters" {
   default = {
     "ses.username" = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" } ,
-#    "dev.backend.DB_HOST" = {name = "dev.backend.DB_HOST", type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com"},
-#    "dev.frontend.BACKEND_ENDPOINT" = {name = "dev.frontend.BACKEND_ENDPOINT", type = "String", value = "http://backend-dev.rdevopsb72.online/"},
+    "dev.backend.DB_HOST" = {name = "dev.backend.DB_HOST", type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com"},
+    "dev.frontend.BACKEND_ENDPOINT" = {name = "dev.frontend.BACKEND_ENDPOINT", type = "String", value = "http://backend-dev.rdevopsb72.online/"},
 #    "ssh.username" = {name = "ssh.username", type = "String", value = "root"},
 #    "artifactory.username" = {name = "artifactory.username", type = "String", value = "admin"},
 #    "dev.backend.app_version" = {name = "dev.backend.app_version", type = "String", value = "1.0.0"},
