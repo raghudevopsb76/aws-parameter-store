@@ -28,7 +28,7 @@ variable "parameters" {
 
     "sonar.token" = {name = "sonar.token", type = "SecureString", value = "2060dec344342f998bcb53fd3ea189592c7776ff"},
     "artifactory.password" = {name = "artifactory.password", type = "SecureString", value = "Admin123"},
-    "ses.password" = {name = "ssh.password", type = "SecureString", value = "DevOps321"},
+    "ssh.password" = {name = "ssh.password", type = "SecureString", value = "DevOps321"},
   }
 }
 
