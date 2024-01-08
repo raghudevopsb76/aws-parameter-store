@@ -26,9 +26,10 @@ variable "parameters" {
     "prod.rds.password" = { name = "prod.rds.password", type = "SecureString", value = "ExpenseApp1234" },
 
 
-    "sonar.token"          = { name = "sonar.token", type = "SecureString", value = "2060dec344342f998bcb53fd3ea189592c7776ff" },
-    "artifactory.password" = { name = "artifactory.password", type = "SecureString", value = "Admin123" },
-    "ssh.password"         = { name = "ssh.password", type = "SecureString", value = "DevOps321" },
+    "sonar.token"            = { name = "sonar.token", type = "SecureString", value = "2060dec344342f998bcb53fd3ea189592c7776ff" },
+    "artifactory.password"   = { name = "artifactory.password", type = "SecureString", value = "Admin123" },
+    "ssh.password"           = { name = "ssh.password", type = "SecureString", value = "DevOps321" },
+    "elasticsearch.password" = { name = "elasticsearch.password", type = "SecureString", value = "iQlDCevdHhC4gXdtHCw9" },
   }
 }
 
