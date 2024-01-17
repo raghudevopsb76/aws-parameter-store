@@ -12,9 +12,10 @@ variable "parameters" {
     "prod.frontend.app_version"      = { name = "prod.frontend.app_version", type = "String", value = "1.0.0" },
 
     ## RoboShop Project
-    "dev.roboshop.rds.username" = { name = "dev.roboshop.rds.username", type = "String", value = "admin1" },
-    "dev.roboshop.rds.password" = { name = "dev.roboshop.rds.password", type = "SecureString", value = "RoboShop12345" },
-
+    "dev.roboshop.rds.username"   = { name = "dev.roboshop.rds.username", type = "String", value = "admin1" },
+    "dev.roboshop.rds.password"   = { name = "dev.roboshop.rds.password", type = "SecureString", value = "RoboShop12345" },
+    "dev.roboshop.docdb.username" = { name = "dev.roboshop.docdb.username", type = "String", value = "admin1" },
+    "dev.roboshop.docdb.password" = { name = "dev.roboshop.docdb.password", type = "SecureString", value = "RoboShop12345" },
 
     "ses.username"         = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
     "ssh.username"         = { name = "ssh.username", type = "String", value = "root" },
