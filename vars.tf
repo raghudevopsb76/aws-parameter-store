@@ -13,7 +13,7 @@ variable "parameters" {
 
     ## RoboShop Project
     "dev.roboshop.rds.username" = { name = "dev.roboshop.rds.username", type = "String", value = "admin1" },
-    "dev.roboshop.rds.username" = { name = "dev.roboshop.rds.password", type = "SecureString", value = "RoboShop12345" },
+    "dev.roboshop.rds.password" = { name = "dev.roboshop.rds.password", type = "SecureString", value = "RoboShop12345" },
 
 
     "ses.username"         = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
