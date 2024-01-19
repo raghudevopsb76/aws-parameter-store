@@ -17,6 +17,13 @@ variable "parameters" {
     "dev.roboshop.docdb.username" = { name = "dev.roboshop.docdb.username", type = "String", value = "admin1" },
     "dev.roboshop.docdb.password" = { name = "dev.roboshop.docdb.password", type = "SecureString", value = "RoboShop12345" },
 
+    "dev.roboshop.frontend.CATALOGUE_ENDPOINT" = {type = "String", value = "https://catalogue-dev.rdevopsb72.online/" },
+    "dev.roboshop.frontend.CART_ENDPOINT" = {type = "String", value = "https://cart-dev.rdevopsb72.online/" },
+    "dev.roboshop.frontend.USER_ENDPOINT" = {type = "String", value = "https://user-dev.rdevopsb72.online/" },
+    "dev.roboshop.frontend.SHIPPING_ENDPOINT" = {type = "String", value = "https://shipping-dev.rdevopsb72.online/" },
+    "dev.roboshop.frontend.PAYMENT_ENDPOINT" = {type = "String", value = "https://payment-dev.rdevopsb72.online/" },
+
+
     "ses.username"         = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
     "ssh.username"         = { name = "ssh.username", type = "String", value = "root" },
     "artifactory.username" = { name = "artifactory.username", type = "String", value = "admin" },
@@ -37,6 +44,7 @@ variable "parameters" {
     "artifactory.password"   = { name = "artifactory.password", type = "SecureString", value = "Admin123" },
     "ssh.password"           = { name = "ssh.password", type = "SecureString", value = "DevOps321" },
     "elasticsearch.password" = { name = "elasticsearch.password", type = "SecureString", value = "iQlDCevdHhC4gXdtHCw9" },
+    "newrelic.key" = { type = "SecureString", value = "NRAK-D6K56B1ACC02CECBTAKILVUNW50" },
   }
 }
 
