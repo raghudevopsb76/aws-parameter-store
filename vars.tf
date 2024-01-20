@@ -44,7 +44,7 @@ variable "parameters" {
     "artifactory.password"   = { name = "artifactory.password", type = "SecureString", value = "Admin123" },
     "ssh.password"           = { name = "ssh.password", type = "SecureString", value = "DevOps321" },
     "elasticsearch.password" = { name = "elasticsearch.password", type = "SecureString", value = "iQlDCevdHhC4gXdtHCw9" },
-    "newrelic.key" = { type = "SecureString", value = "NRAK-D6K56B1ACC02CECBTAKILVUNW50" },
+    "newrelic.key"           = { type = "SecureString", value = "NRAK-D6K56B1ACC02CECBTAKILVUNW50" },
   }
 }
 
