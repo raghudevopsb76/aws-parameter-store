@@ -23,6 +23,8 @@ variable "parameters" {
     "dev.roboshop.frontend.SHIPPING_ENDPOINT" = {type = "String", value = "https://shipping-dev.rdevopsb72.online/" },
     "dev.roboshop.frontend.PAYMENT_ENDPOINT" = {type = "String", value = "https://payment-dev.rdevopsb72.online/" },
 
+    "dev.roboshop.catalogue.MONGO_URL" = {type = "SecureString", value = "mongodb://admin1:RoboShop12345@dev-roboshop-docdb.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
+
 
     "ses.username"         = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
     "ssh.username"         = { name = "ssh.username", type = "String", value = "root" },
