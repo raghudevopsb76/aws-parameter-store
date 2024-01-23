@@ -17,11 +17,11 @@ variable "parameters" {
     "dev.roboshop.docdb.username" = { name = "dev.roboshop.docdb.username", type = "String", value = "admin1" },
     "dev.roboshop.docdb.password" = { name = "dev.roboshop.docdb.password", type = "SecureString", value = "RoboShop12345" },
 
-    "dev.roboshop.frontend.CATALOGUE_ENDPOINT" = {type = "String", value = "https://catalogue-dev.rdevopsb72.online/" },
-    "dev.roboshop.frontend.CART_ENDPOINT" = {type = "String", value = "https://cart-dev.rdevopsb72.online/" },
-    "dev.roboshop.frontend.USER_ENDPOINT" = {type = "String", value = "https://user-dev.rdevopsb72.online/" },
-    "dev.roboshop.frontend.SHIPPING_ENDPOINT" = {type = "String", value = "https://shipping-dev.rdevopsb72.online/" },
-    "dev.roboshop.frontend.PAYMENT_ENDPOINT" = {type = "String", value = "https://payment-dev.rdevopsb72.online/" },
+    "dev.roboshop.frontend.CATALOGUE_ENDPOINT" = {type = "String", value = "http://catalogue-dev.rdevopsb72.online/" },
+    "dev.roboshop.frontend.CART_ENDPOINT" = {type = "String", value = "http://cart-dev.rdevopsb72.online/" },
+    "dev.roboshop.frontend.USER_ENDPOINT" = {type = "String", value = "http://user-dev.rdevopsb72.online/" },
+    "dev.roboshop.frontend.SHIPPING_ENDPOINT" = {type = "String", value = "http://shipping-dev.rdevopsb72.online/" },
+    "dev.roboshop.frontend.PAYMENT_ENDPOINT" = {type = "String", value = "http://payment-dev.rdevopsb72.online/" },
 
     "dev.roboshop.catalogue.MONGO_URL" = {type = "SecureString", value = "mongodb://admin1:RoboShop12345@dev-roboshop-docdb.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
     "dev.roboshop.catalogue.DOCDB_ENDPOINT" = {type = "String", value = "dev-roboshop-docdb.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com" },
