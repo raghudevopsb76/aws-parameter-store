@@ -30,7 +30,8 @@ variable "parameters" {
     "dev.roboshop.user.REDIS_HOST" = {type = "String", value = "dev-roboshop-elasticache.ppugfs.0001.use1.cache.amazonaws.com" },
 
     "dev.roboshop.cart.REDIS_HOST" = {type = "String", value = "dev-roboshop-elasticache.ppugfs.0001.use1.cache.amazonaws.com" },
-    "dev.roboshop.cart.REDIS_HOST" = {type = "String", value = "dev-roboshop-elasticache.ppugfs.0001.use1.cache.amazonaws.com" },
+    "dev.roboshop.cart.CATALOGUE_PORT" = {type = "String", value = "80" },
+    "dev.roboshop.cart.CATALOGUE_HOST" = {type = "String", value = "catalogue-dev.rdevopsb72.online" },
 
 
     "ses.username"         = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
