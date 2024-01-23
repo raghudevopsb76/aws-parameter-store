@@ -33,6 +33,9 @@ variable "parameters" {
     "dev.roboshop.cart.CATALOGUE_PORT" = {type = "String", value = "80" },
     "dev.roboshop.cart.CATALOGUE_HOST" = {type = "String", value = "catalogue-dev.rdevopsb72.online" },
 
+    "dev.roboshop.shipping.CART_ENDPOINT" = {type = "String", value = "cart-dev.rdevopsb72.online:80" },
+    "dev.roboshop.shipping.DB_HOST" = {type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
+
 
     "ses.username"         = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
     "ssh.username"         = { name = "ssh.username", type = "String", value = "root" },
