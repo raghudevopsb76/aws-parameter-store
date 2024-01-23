@@ -29,6 +29,9 @@ variable "parameters" {
     "dev.roboshop.user.MONGO_URL" = {type = "SecureString", value = "mongodb://admin1:RoboShop12345@dev-roboshop-docdb.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
     "dev.roboshop.user.REDIS_HOST" = {type = "String", value = "dev-roboshop-elasticache.ppugfs.0001.use1.cache.amazonaws.com" },
 
+    "dev.roboshop.cart.REDIS_HOST" = {type = "String", value = "dev-roboshop-elasticache.ppugfs.0001.use1.cache.amazonaws.com" },
+    "dev.roboshop.cart.REDIS_HOST" = {type = "String", value = "dev-roboshop-elasticache.ppugfs.0001.use1.cache.amazonaws.com" },
+
 
     "ses.username"         = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
     "ssh.username"         = { name = "ssh.username", type = "String", value = "root" },
