@@ -16,6 +16,8 @@ variable "parameters" {
     "dev.roboshop.rds.password"   = { name = "dev.roboshop.rds.password", type = "SecureString", value = "RoboShop12345" },
     "dev.roboshop.docdb.username" = { name = "dev.roboshop.docdb.username", type = "String", value = "admin1" },
     "dev.roboshop.docdb.password" = { name = "dev.roboshop.docdb.password", type = "SecureString", value = "RoboShop12345" },
+    "dev.roboshop.rabbitmq.username" = { type = "String", value = "roboshop" },
+    "dev.roboshop.rabbitmq.password" = { type = "SecureString", value = "roboshop123" },
 
     "dev.roboshop.frontend.CATALOGUE_ENDPOINT" = {type = "String", value = "http://catalogue-dev.rdevopsb72.online/" },
     "dev.roboshop.frontend.CART_ENDPOINT" = {type = "String", value = "http://cart-dev.rdevopsb72.online/" },
@@ -35,6 +37,14 @@ variable "parameters" {
 
     "dev.roboshop.shipping.CART_ENDPOINT" = {type = "String", value = "cart-dev.rdevopsb72.online:80" },
     "dev.roboshop.shipping.DB_HOST" = {type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
+
+    "dev.roboshop.payment.CART_HOST" = {type = "String", value = "cart-dev.rdevopsb72.online" },
+    "dev.roboshop.payment.CART_PORT" = {type = "String", value = "80" },
+    "dev.roboshop.payment.USER_HOST" = {type = "String", value = "user-dev.rdevopsb72.online" },
+    "dev.roboshop.payment.USER_PORT" = {type = "String", value = "80" },
+    "dev.roboshop.payment.AMQP_HOST" = {type = "String", value = "rabbitmq-dev.rdevopsb72.online" },
+    "dev.roboshop.payment.AMQP_USER" = {type = "String", value = "roboshop" },
+    "dev.roboshop.payment.AMQP_PASS" = {type = "SecureString", value = "roboshop123" },
 
 
     "ses.username"         = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
