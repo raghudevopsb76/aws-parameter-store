@@ -46,6 +46,10 @@ variable "parameters" {
     "dev.roboshop.payment.AMQP_USER" = {type = "String", value = "roboshop" },
     "dev.roboshop.payment.AMQP_PASS" = {type = "SecureString", value = "roboshop123" },
 
+    "dev.roboshop.dispatch.AMQP_HOST" = {type = "String", value = "rabbitmq-dev.rdevopsb72.online" },
+    "dev.roboshop.dispatch.AMQP_USER" = {type = "String", value = "roboshop" },
+    "dev.roboshop.dispatch.AMQP_PASS" = {type = "SecureString", value = "roboshop123" },
+
 
     "ses.username"         = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
     "ssh.username"         = { name = "ssh.username", type = "String", value = "root" },
