@@ -80,6 +80,7 @@ variable "parameters" {
     "ssh.password"           = { name = "ssh.password", type = "SecureString", value = "DevOps321" },
     "elasticsearch.password" = { name = "elasticsearch.password", type = "SecureString", value = "iQlDCevdHhC4gXdtHCw9" },
     "newrelic.key"           = { type = "SecureString", value = "84c919e149e919bdc049da585ccffea1FFFFNRAL" },
+    "dev.roboshop.frontend.newrelic_key"           = { type = "SecureString", value = "NRAK-D6K56B1ACC02CECBTAKILVUNW50" },
   }
 }
 
