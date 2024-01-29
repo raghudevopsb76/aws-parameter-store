@@ -50,6 +50,14 @@ variable "parameters" {
     "dev.roboshop.dispatch.AMQP_USER" = {type = "String", value = "roboshop" },
     "dev.roboshop.dispatch.AMQP_PASS" = {type = "SecureString", value = "roboshop123" },
 
+    "dev.roboshop.frontend.app_version" = {type = "String", value = "1.0.2" },
+    "dev.roboshop.cart.app_version" = {type = "String", value = "1.0.0" },
+    "dev.roboshop.catalogue.app_version" = {type = "String", value = "1.0.0" },
+    "dev.roboshop.dispatch.app_version" = {type = "String", value = "1.0.0" },
+    "dev.roboshop.payment.app_version" = {type = "String", value = "1.0.0" },
+    "dev.roboshop.shipping.app_version" = {type = "String", value = "1.0.0" },
+    "dev.roboshop.user.app_version" = {type = "String", value = "1.0.0" },
+
 
     "ses.username"         = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
     "ssh.username"         = { name = "ssh.username", type = "String", value = "root" },
