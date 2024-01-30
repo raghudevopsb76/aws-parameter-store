@@ -59,6 +59,46 @@ variable "parameters" {
     "dev.roboshop.user.app_version" = {type = "String", value = "1.0.0" },
 
 
+    ## PROD
+    ## RoboShop Project
+    "prod.roboshop.rds.username"   = {  type = "String", value = "admin1" },
+    "prod.roboshop.rds.password"   = { type = "SecureString", value = "RoboShop12345" },
+    "prod.roboshop.docdb.username" = {  type = "String", value = "admin1" },
+    "prod.roboshop.docdb.password" = {  type = "SecureString", value = "RoboShop12345" },
+    "prod.roboshop.rabbitmq.username" = { type = "String", value = "roboshop" },
+    "prod.roboshop.rabbitmq.password" = { type = "SecureString", value = "roboshop123" },
+
+    "prod.roboshop.frontend.CATALOGUE_ENDPOINT" = {type = "String", value = "http://catalogue-prod.rdevopsb72.online/" },
+    "prod.roboshop.frontend.CART_ENDPOINT" = {type = "String", value = "http://cart-prod.rdevopsb72.online/" },
+    "prod.roboshop.frontend.USER_ENDPOINT" = {type = "String", value = "http://user-prod.rdevopsb72.online/" },
+    "prod.roboshop.frontend.SHIPPING_ENDPOINT" = {type = "String", value = "http://shipping-prod.rdevopsb72.online/" },
+    "prod.roboshop.frontend.PAYMENT_ENDPOINT" = {type = "String", value = "http://payment-prod.rdevopsb72.online/" },
+
+    "prod.roboshop.catalogue.MONGO_URL" = {type = "SecureString", value = "mongodb://admin1:RoboShop12345@dev-roboshop-docdb.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
+    "prod.roboshop.catalogue.DOCDB_ENDPOINT" = {type = "String", value = "dev-roboshop-docdb.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com" },
+
+    "prod.roboshop.user.MONGO_URL" = {type = "SecureString", value = "mongodb://admin1:RoboShop12345@dev-roboshop-docdb.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
+    "prod.roboshop.user.REDIS_HOST" = {type = "String", value = "dev-roboshop-elasticache.ppugfs.0001.use1.cache.amazonaws.com" },
+
+    "prod.roboshop.cart.REDIS_HOST" = {type = "String", value = "dev-roboshop-elasticache.ppugfs.0001.use1.cache.amazonaws.com" },
+    "prod.roboshop.cart.CATALOGUE_PORT" = {type = "String", value = "80" },
+    "prod.roboshop.cart.CATALOGUE_HOST" = {type = "String", value = "catalogue-prod.rdevopsb72.online" },
+
+    "prod.roboshop.shipping.CART_ENDPOINT" = {type = "String", value = "cart-prod.rdevopsb72.online:80" },
+    "prod.roboshop.shipping.DB_HOST" = {type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
+
+    "prod.roboshop.payment.CART_HOST" = {type = "String", value = "cart-prod.rdevopsb72.online" },
+    "prod.roboshop.payment.CART_PORT" = {type = "String", value = "80" },
+    "prod.roboshop.payment.USER_HOST" = {type = "String", value = "user-prod.rdevopsb72.online" },
+    "prod.roboshop.payment.USER_PORT" = {type = "String", value = "80" },
+    "prod.roboshop.payment.AMQP_HOST" = {type = "String", value = "rabbitmq-prod.rdevopsb72.online" },
+    "prod.roboshop.payment.AMQP_USER" = {type = "String", value = "roboshop" },
+    "prod.roboshop.payment.AMQP_PASS" = {type = "SecureString", value = "roboshop123" },
+
+    "prod.roboshop.dispatch.AMQP_HOST" = {type = "String", value = "rabbitmq-prod.rdevopsb72.online" },
+    "prod.roboshop.dispatch.AMQP_USER" = {type = "String", value = "roboshop" },
+    "prod.roboshop.dispatch.AMQP_PASS" = {type = "SecureString", value = "roboshop123" },
+
     "ses.username"         = { name = "ses.username", type = "String", value = "AKIAZHEF5S5CFSUBQ55V" },
     "ssh.username"         = { name = "ssh.username", type = "String", value = "root" },
     "artifactory.username" = { name = "artifactory.username", type = "String", value = "admin" },
