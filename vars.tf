@@ -55,7 +55,7 @@ variable "parameters" {
     "dev.roboshop.catalogue.app_version" = { type = "String", value = "1.0.0" },
     "dev.roboshop.dispatch.app_version"  = { type = "String", value = "1.0.0" },
     "dev.roboshop.payment.app_version"   = { type = "String", value = "1.0.0" },
-    "dev.roboshop.shipping.app_version"  = { type = "String", value = "1.0.0" },
+    "dev.roboshop.shipping.app_version"  = { type = "String", value = "1.0.1" },
     "dev.roboshop.user.app_version"      = { type = "String", value = "1.0.1" },
 
 
@@ -108,7 +108,7 @@ variable "parameters" {
     "prod.roboshop.catalogue.app_version" = { type = "String", value = "1.0.0" },
     "prod.roboshop.dispatch.app_version"  = { type = "String", value = "1.0.0" },
     "prod.roboshop.payment.app_version"   = { type = "String", value = "1.0.0" },
-    "prod.roboshop.shipping.app_version"  = { type = "String", value = "1.0.0" },
+    "prod.roboshop.shipping.app_version"  = { type = "String", value = "1.0.1" },
     "prod.roboshop.user.app_version"      = { type = "String", value = "1.0.1" },
 
     ## RDS
