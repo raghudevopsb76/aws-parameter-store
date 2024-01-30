@@ -56,7 +56,7 @@ variable "parameters" {
     "dev.roboshop.dispatch.app_version"  = { type = "String", value = "1.0.0" },
     "dev.roboshop.payment.app_version"   = { type = "String", value = "1.0.0" },
     "dev.roboshop.shipping.app_version"  = { type = "String", value = "1.0.0" },
-    "dev.roboshop.user.app_version"      = { type = "String", value = "1.0.0" },
+    "dev.roboshop.user.app_version"      = { type = "String", value = "1.0.1" },
 
 
     ## PROD
@@ -109,7 +109,7 @@ variable "parameters" {
     "prod.roboshop.dispatch.app_version"  = { type = "String", value = "1.0.0" },
     "prod.roboshop.payment.app_version"   = { type = "String", value = "1.0.0" },
     "prod.roboshop.shipping.app_version"  = { type = "String", value = "1.0.0" },
-    "prod.roboshop.user.app_version"      = { type = "String", value = "1.0.0" },
+    "prod.roboshop.user.app_version"      = { type = "String", value = "1.0.1" },
 
     ## RDS
     "dev.rds.endpoint"  = { name = "dev.rds.endpoint", type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
