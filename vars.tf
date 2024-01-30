@@ -103,6 +103,14 @@ variable "parameters" {
     "ssh.username"         = { name = "ssh.username", type = "String", value = "root" },
     "artifactory.username" = { name = "artifactory.username", type = "String", value = "admin" },
 
+    "prod.roboshop.frontend.app_version"  = { type = "String", value = "1.0.2" },
+    "prod.roboshop.cart.app_version"      = { type = "String", value = "1.0.0" },
+    "prod.roboshop.catalogue.app_version" = { type = "String", value = "1.0.0" },
+    "prod.roboshop.dispatch.app_version"  = { type = "String", value = "1.0.0" },
+    "prod.roboshop.payment.app_version"   = { type = "String", value = "1.0.0" },
+    "prod.roboshop.shipping.app_version"  = { type = "String", value = "1.0.0" },
+    "prod.roboshop.user.app_version"      = { type = "String", value = "1.0.0" },
+
     ## RDS
     "dev.rds.endpoint"  = { name = "dev.rds.endpoint", type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
     "dev.rds.username"  = { name = "dev.rds.username", type = "String", value = "admin1" },
